@@ -1,0 +1,6 @@
+{
+  "name": "Urban Vibe Sport – ALTURA 2335",
+  "description": "Colección premium ALTURA 2335 nacida en Arequipa a 2,335 m s. n. m. Fibras peruanas de algodón pima, baby alpaca y merino para running, training y outdoor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

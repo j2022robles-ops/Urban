@@ -1,0 +1,208 @@
+import { Product } from '../types';
+
+export const INITIAL_PRODUCTS: Product[] = [
+  {
+    slug: 'polo-misti',
+    nombre: 'Polo manga larga Misti',
+    linea: 'Running',
+    composicion: '70 % algodón pima, 30 % merino',
+    publico: 'Unisex',
+    precio: 129,
+    stock: 24,
+    colores: ['Crudo'],
+    tallas: ['S', 'M', 'L', 'XL'],
+    descripcion: 'Una primera capa suave y ligera para tus kilómetros al amanecer.',
+    imagenes: ['/products/01.webp'],
+    etiquetas: ['Favorito de la colección']
+  },
+  {
+    slug: 'short-running',
+    nombre: 'Short running 7″',
+    linea: 'Running',
+    composicion: '92 % algodón, 8 % elastano',
+    publico: 'Hombre',
+    precio: 89,
+    stock: 24,
+    colores: ['Negro'],
+    tallas: ['S', 'M', 'L', 'XL'],
+    descripcion: 'Libertad de movimiento, cintura elástica y un largo que acompaña tu ritmo.',
+    imagenes: ['/products/02.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'malla-compresion',
+    nombre: 'Malla de compresión',
+    linea: 'Running',
+    composicion: '88 % algodón orgánico, 12 % elastano',
+    publico: 'Unisex',
+    precio: 99,
+    stock: 24,
+    colores: ['Negro'],
+    tallas: ['S', 'M', 'L', 'XL'],
+    descripcion: 'Ajuste ceñido y elasticidad para entrenar con comodidad.',
+    imagenes: ['/products/03.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'top-deportivo',
+    nombre: 'Top deportivo',
+    linea: 'Training',
+    composicion: '90 % algodón orgánico, 10 % elastano',
+    publico: 'Mujer',
+    precio: 79,
+    stock: 24,
+    colores: ['Terracota'],
+    tallas: ['XS', 'S', 'M', 'L'],
+    descripcion: 'Tu punto de partida para yoga, funcional y días en movimiento.',
+    imagenes: ['/products/04.webp'],
+    etiquetas: ['Nuevo']
+  },
+  {
+    slug: 'legging-7-8',
+    nombre: 'Legging 7/8',
+    linea: 'Training',
+    composicion: '88 % algodón orgánico, 12 % elastano',
+    publico: 'Mujer',
+    precio: 119,
+    stock: 24,
+    colores: ['Terracota'],
+    tallas: ['XS', 'S', 'M', 'L'],
+    descripcion: 'Cintura alta y un tejido flexible que se mueve contigo.',
+    imagenes: ['/products/05.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'cropped-quarter-zip',
+    nombre: 'Cropped quarter-zip',
+    linea: 'Training',
+    composicion: '100 % algodón pima French terry',
+    publico: 'Mujer',
+    precio: 159,
+    stock: 24,
+    colores: ['Crudo'],
+    tallas: ['XS', 'S', 'M', 'L'],
+    descripcion: 'Una capa media de silueta corta para antes y después de entrenar.',
+    imagenes: ['/products/06.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'hoodie-heavyweight',
+    nombre: 'Hoodie heavyweight',
+    linea: 'Training',
+    composicion: '100 % algodón pima French terry',
+    publico: 'Unisex',
+    precio: 189,
+    stock: 24,
+    colores: ['Carbón'],
+    tallas: ['S', 'M', 'L', 'XL'],
+    descripcion: 'Abrigo con cuerpo, tacto suave y una silueta relajada.',
+    imagenes: ['/products/07.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'jogger-tapered',
+    nombre: 'Jogger tapered',
+    linea: 'Training',
+    composicion: '95 % algodón, 5 % elastano',
+    publico: 'Hombre',
+    precio: 149,
+    stock: 24,
+    colores: ['Negro'],
+    tallas: ['S', 'M', 'L', 'XL'],
+    descripcion: 'Corte afinado y comodidad para entrenar o recorrer la ciudad.',
+    imagenes: ['/products/08.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'jogger-wide-leg',
+    nombre: 'Jogger wide-leg',
+    linea: 'Training',
+    composicion: '100 % algodón pima perchado',
+    publico: 'Mujer',
+    precio: 149,
+    stock: 24,
+    colores: ['Salvia'],
+    tallas: ['XS', 'S', 'M', 'L'],
+    descripcion: 'Pierna amplia, caída natural y comodidad en cada paso.',
+    imagenes: ['/products/09.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'base-quarter-zip',
+    nombre: 'Base quarter-zip',
+    linea: 'Altura',
+    composicion: '50 % baby alpaca, 50 % merino',
+    publico: 'Unisex',
+    precio: 229,
+    stock: 24,
+    colores: ['Salvia'],
+    tallas: ['S', 'M', 'L', 'XL'],
+    descripcion: 'Fibras de alpaca y merino para una primera capa abrigadora.',
+    imagenes: ['/products/10.webp'],
+    etiquetas: ['Baby alpaca']
+  },
+  {
+    slug: 'casaca-cortaviento',
+    nombre: 'Casaca cortaviento',
+    linea: 'Altura',
+    composicion: '65 % algodón, 35 % nylon reciclado',
+    publico: 'Unisex',
+    precio: 289,
+    stock: 24,
+    colores: ['Crudo'],
+    tallas: ['S', 'M', 'L', 'XL'],
+    descripcion: 'Completa tu sistema de capas para los cambios del clima.',
+    imagenes: ['/products/11.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'gorro-beanie',
+    nombre: 'Gorro beanie',
+    linea: 'Altura',
+    composicion: '100 % baby alpaca',
+    publico: 'Unisex',
+    precio: 69,
+    stock: 24,
+    colores: ['Terracota'],
+    tallas: ['Única'],
+    descripcion: 'Un pequeño esencial de baby alpaca para las mañanas frías.',
+    imagenes: ['/products/12.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'cuello-termico',
+    nombre: 'Cuello térmico',
+    linea: 'Altura',
+    composicion: '100 % merino',
+    publico: 'Unisex',
+    precio: 59,
+    stock: 24,
+    colores: ['Gris'],
+    tallas: ['Única'],
+    descripcion: 'Suave, versátil y fácil de llevar en tus rutas.',
+    imagenes: ['/products/13.webp'],
+    etiquetas: []
+  },
+  {
+    slug: 'medias-pack',
+    nombre: 'Medias · pack de 2',
+    linea: 'Altura',
+    composicion: '60 % merino, 40 % algodón',
+    publico: 'Unisex',
+    precio: 49,
+    stock: 24,
+    colores: ['Gris'],
+    tallas: ['35–38', '39–42', '43–46'],
+    descripcion: 'Dos pares para sumar comodidad desde el primer kilómetro.',
+    imagenes: ['/products/14.webp'],
+    etiquetas: []
+  }
+];
+
+export const formatPrice = (price: number): string => {
+  return `S/ ${price.toFixed(2)}`;
+};
+
+export const getWhatsAppLink = (message: string): string => {
+  return `https://wa.me/51925147306?text=${encodeURIComponent(message)}`;
+};
